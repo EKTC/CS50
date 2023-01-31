@@ -1,0 +1,62 @@
+html {
+    font-family: 'Product Sans', sans-serif;
+}
+
+body {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+}
+
+img {
+    margin-top: 150px;
+}
+
+
+#search_box {
+    border-radius: 25px;
+    border: 1px solid #D3D3D3;
+    padding: 20px;
+    width: 600px;
+    height: 0px;
+  }
+
+button { 
+    cursor: pointer;
+}
+.buttonA {
+    padding: 10px;
+    position:relative;
+    right:100px;
+    top: 10px;
+    margin-left: 50px;
+}
+
+.buttonB {
+    padding: 10px;
+    position:relative;
+    right:-50px;
+    top: -29px;
+}
+
+.options {
+    position:absolute;
+    top: 0;
+    right: 0;
+    display:block;
+    color: black;
+    cursor: pointer;
+    font-weight: lighter;
+    text-decoration: none;
+    font-size: 100%;
+}
+.optionA {
+    padding-right: 250px;
+    padding-top: 20px;
+}
+
+.optionB {
+    padding-right: 100px;
+    padding-top: 20px;
+}
